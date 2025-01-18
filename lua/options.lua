@@ -1,14 +1,6 @@
 require "nvchad.options"
 
-local opt = vim.opt
+-- add yours here!
 
-opt.backup = false
-opt.swapfile = false
-opt.colorcolumn = "100"
-opt.relativenumber = true
-opt.list = true
-opt.listchars = "tab:➝ ,lead:·,space:·,trail:·,nbsp:+,eol:¬"
-
--- feature toggles
-vim.g.format_on_save = true
-vim.g.copilot_enabled = true
+-- local o = vim.o
+-- o.cursorlineopt ='both' -- to enable cursorline!
